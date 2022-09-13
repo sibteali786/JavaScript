@@ -19,3 +19,8 @@ game.name[0] = "Miss Scarlet";
 // OR
 // game.push("Mr. Green"); // at back of the array (but its wrong as game is an object)
 console.log(game);
+
+const myKey = "Hello";
+const myValue = "Hi There!!";
+game[myKey] = myValue;
+console.log(game[myKey]); // accessing this value
